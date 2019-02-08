@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://pawsong.github.io/wedding-b/precache-manifest.bb7645c58ac8cf43f440a7be805e634f.js"
+  "https://pawsong.github.io/weonah-marries-seunggeun/precache-manifest.d05f5e54c510a6fff558c6739747cc78.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://pawsong.github.io/wedding-b/index.html", {
+workbox.routing.registerNavigationRoute("https://pawsong.github.io/weonah-marries-seunggeun/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
